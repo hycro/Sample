@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F187A311C74ACEF00E9AAE7 /* subViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F187A2F1C74ACEF00E9AAE7 /* subViewController.m */; };
+		1F187A321C74ACEF00E9AAE7 /* subViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F187A301C74ACEF00E9AAE7 /* subViewController.xib */; };
 		1F2FE5671C6ECAE0008FAEA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2FE5661C6ECAE0008FAEA2 /* main.m */; };
 		1F2FE56A1C6ECAE0008FAEA2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2FE5691C6ECAE0008FAEA2 /* AppDelegate.m */; };
 		1F2FE56D1C6ECAE0008FAEA2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2FE56C1C6ECAE0008FAEA2 /* ViewController.m */; };
@@ -35,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F187A2E1C74ACEF00E9AAE7 /* subViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = subViewController.h; sourceTree = "<group>"; };
+		1F187A2F1C74ACEF00E9AAE7 /* subViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = subViewController.m; sourceTree = "<group>"; };
+		1F187A301C74ACEF00E9AAE7 /* subViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = subViewController.xib; sourceTree = "<group>"; };
 		1F2FE5621C6ECAE0008FAEA2 /* GitHubTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F2FE5661C6ECAE0008FAEA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1F2FE5681C6ECAE0008FAEA2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -110,6 +115,9 @@
 				1F2FE5731C6ECAE0008FAEA2 /* LaunchScreen.storyboard */,
 				1F2FE5761C6ECAE0008FAEA2 /* Info.plist */,
 				1F2FE5651C6ECAE0008FAEA2 /* Supporting Files */,
+				1F187A2E1C74ACEF00E9AAE7 /* subViewController.h */,
+				1F187A2F1C74ACEF00E9AAE7 /* subViewController.m */,
+				1F187A301C74ACEF00E9AAE7 /* subViewController.xib */,
 			);
 			path = GitHubTest;
 			sourceTree = "<group>";
@@ -246,6 +254,7 @@
 				1F2FE5751C6ECAE0008FAEA2 /* LaunchScreen.storyboard in Resources */,
 				1F2FE5721C6ECAE0008FAEA2 /* Assets.xcassets in Resources */,
 				1F2FE5701C6ECAE0008FAEA2 /* Main.storyboard in Resources */,
+				1F187A321C74ACEF00E9AAE7 /* subViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +282,7 @@
 				1F2FE56D1C6ECAE0008FAEA2 /* ViewController.m in Sources */,
 				1F2FE56A1C6ECAE0008FAEA2 /* AppDelegate.m in Sources */,
 				1F2FE5671C6ECAE0008FAEA2 /* main.m in Sources */,
+				1F187A311C74ACEF00E9AAE7 /* subViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +506,7 @@
 				1F2FE5911C6ECAE0008FAEA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F2FE5921C6ECAE0008FAEA2 /* Build configuration list for PBXNativeTarget "GitHubTestTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +515,7 @@
 				1F2FE5941C6ECAE0008FAEA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F2FE5951C6ECAE0008FAEA2 /* Build configuration list for PBXNativeTarget "GitHubTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +524,7 @@
 				1F2FE5971C6ECAE0008FAEA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
