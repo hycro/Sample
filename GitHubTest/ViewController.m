@@ -19,6 +19,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     NSLog(@"あいうえお");
     NSLog(@"ブランチ追加したよ");
+    NSLog(@"branch");
 }
 
 - (void)didReceiveMemoryWarning {
