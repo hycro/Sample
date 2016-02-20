@@ -34,6 +34,7 @@
 
 - (void)hogehoge2
 {
+    // コメント
     NSLog(@"new method2");
 }
 
