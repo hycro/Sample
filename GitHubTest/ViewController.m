@@ -27,4 +27,14 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)hogehoge
+{
+    NSLog(@"new method");
+}
+
+- (void)hogehoge2
+{
+    NSLog(@"new method2");
+}
+
 @end
