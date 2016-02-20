@@ -29,6 +29,7 @@
 
 - (void)hogehoge
 {
+    // コメント
     NSLog(@"new method");
 }
 
